@@ -25,11 +25,11 @@ const WS_PORT = 5050;
 
 // 2) สร้าง Connection Pool
 const db = mysql.createPool({
-  host: "mysql_db",
-  user: "node_user",
-  password: "Admin123!",
+  host: "localhost",
+  user: "root",
+  password: "Dream241244",
   // password: "123456789",
-  database: "Project_circuit",
+  database: "test_project_circuit",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
